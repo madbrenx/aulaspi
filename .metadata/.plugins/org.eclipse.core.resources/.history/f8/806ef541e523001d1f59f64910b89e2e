@@ -1,0 +1,5 @@
+package madson.pi.eventos;
+
+public class IndexController {
+
+}

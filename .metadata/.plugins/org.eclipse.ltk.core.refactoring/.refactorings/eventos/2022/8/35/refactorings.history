@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;IndexController.java&apos; to &apos;eventos/src/main/java/madson.pi.eventos.controllers&apos;&#x0D;&#x0A;- Original project: &apos;eventos&apos;&#x0D;&#x0A;- Destination element: &apos;eventos/src/main/java/madson.pi.eventos.controllers&apos;&#x0D;&#x0A;- Original element: &apos;madson.pi.eventos.IndexController.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;madson.pi.eventos.controllers" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;madson.pi.eventos{IndexController.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1661372011289" units="1" version="1.0"/>
+</session>
