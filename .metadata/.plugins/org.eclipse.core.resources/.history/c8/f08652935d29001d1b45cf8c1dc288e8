@@ -1,0 +1,5 @@
+package madson.pi.eventos.models;
+
+public class Evento {
+
+}
