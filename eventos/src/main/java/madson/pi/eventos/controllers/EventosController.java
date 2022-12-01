@@ -15,14 +15,14 @@ public class EventosController {
 	
 	@RequestMapping("/eventos/form")
 	public String form() {
-		return "FormEvento";
+		return "eventos/FormEvento";
 	}
 
 	@RequestMapping(path = "/eventos", method = RequestMethod.POST)
 	public String adicionar(Evento evento) {
 		System.out.println(evento);
 		er.save(evento);
-		return "evento-adicionado";
+		return "eventos/evento-adicionado";
 	}
 
 }
