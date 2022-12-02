@@ -10,36 +10,36 @@
 </head>
 <body>
 	<div th:replace="~{menu :: menu}"></div>
-	
-	<div class="container"> 
-	
-	<h1>Adicionar Evento</h1>
 
-	<form action="/eventos" method="post">
-		
+	<div class="container">
 
-		<div>
-			<label>Nome: </label> <input type="text" name="nome">
-		</div>
+		<h1>Adicionar Evento</h1>
 
-		<div>
-			<label>Local: </label> <input type="text" name="local">
-		</div>
+		<form action="/eventos" method="post">
 
-		<div>
-			<label>Data: </label> <input type="text" name="data">
-		</div>
 
-		<div>
-			<label>Horario: </label> <input type="text" name="horario">
-		</div>
+			<div>
+				<label>Nome: </label> <input type="text" name="nome">
+			</div>
 
-		<div>
-			<button type="submit" name="Salvar"></button>
-			<button type="reset" name="Limpar"></button>
-		</div>
+			<div>
+				<label>Local: </label> <input type="text" name="local">
+			</div>
 
-	</form>
+			<div>
+				<label>Data: </label> <input type="text" name="data">
+			</div>
+
+			<div>
+				<label>Horario: </label> <input type="text" name="horario">
+			</div>
+
+			<div>
+				<button type="submit" name="Salvar"></button>
+				<button type="reset" name="Limpar"></button>
+			</div>
+
+		</form>
 	</div>
 </body>
 </html>

@@ -5,7 +5,6 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-
 @Entity
 public class Evento {
 	@Id
@@ -16,7 +15,6 @@ public class Evento {
 	private String data;
 	private String horario;
 
-	
 	public Long getId() {
 		return id;
 	}

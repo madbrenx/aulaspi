@@ -25,13 +25,13 @@
 					<th>Local</th>
 					<th>Data</th>
 					<th>Horário</th>
-					
-					<tr/>
+				<tr />
 			</thead>
 			<tbody>
 				<tr th: eache="e : ${eventos}">
 					<td th:text="${e.id}">1</td>
-					<td><a th:href="@{/eventos/{id}(id${e.id})}"><span th text="${e.nome}">Aniversáriod de João</span></a></td>
+					<td><a th:href="@{/eventos/{id}(id${e.id})}"><span th
+							text="${e.nome}">Aniversáriod de João</span></a></td>
 					<td th:text="${e.local}">Clube</td>
 					<td th:text="${e.data}">25/02/2021</td>
 					<td th:text="${e.horario}">19:00</td>
@@ -40,5 +40,5 @@
 		</table>
 
 	</div>
-</tbody>
+	</tbody>
 </html>
